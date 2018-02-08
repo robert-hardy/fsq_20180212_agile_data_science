@@ -25,6 +25,7 @@ Data is stored in 5 places:
 4. From Spark to MongoDB, p95.
 5. From Spark to ElsaticSearch, p113.
 
+---
 
 * the flight data is wget on p91. It is load to spark on p92. It is then saved to the data dir in Parquet format on p93.
 * The storage happens on p94: ‘Note that the Parquet file is only 248 MB, compared with 315 MB for the original gzip-compressed CSV and 259 MB for the gzip-compressed JSON. In practice the Parquet will be much more performant, as it will only load the individual columns we actually use in our PySpark scripts.’
