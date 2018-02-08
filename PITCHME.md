@@ -32,6 +32,9 @@ Data is stored in 5 places:
 * On p95 the whole rdd is loaded into MongoDB. That means that there are multiple copies of the data.
 * On p113 the whole RDD is loaded to ElasticSearch in batches of 100. ‘Note that this might take some time, as there are several million records to index’.
 
+---
+
+
 Storage formats
 ====
 * JSON lines is just JSON by line, typically a dict per line. Like CSV really.
