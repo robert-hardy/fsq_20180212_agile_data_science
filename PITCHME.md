@@ -52,6 +52,9 @@ Agile checkpoints
 ====
 * p102 proposes we release the app without search, even though ‘To get real utility from this data, we need list and search capabilities.’
 * Why? Because we need User validation: ‘“Does anyone care about flights?” and “What do they want to know about a given flight?” We think we have answers to these questions: “Yes” and “Airline, origin, destination, tail number, date, air time, and distance flown.” But without validation, we don’t really know anything for certain.’
+
+---
+
 * ‘The other reason to ship something now is that the act of publishing, presenting, and sharing your work will highlight a number of problems in your platform setup that would likely otherwise go undiscovered until the moment you launch your product.’
 
 ---
