@@ -8,6 +8,9 @@ Main tech
 * ‘Kafka messages are grouped into topics’, p55 ‘we will be using Kafka to deploy predictions using Spark Streaming, but it can do much more.’ On p55 he runs the ‘console producer’ where we can publish messages to a topic (you write some Json) and then the ‘console consumer’ plays it back.
 * Spark streaming has a ‘period’ of 10 seconds and ‘creates a Kafka stream’, p57. It listens to Kafka messages and acts on them — Russell prints the message in a Kafka object to the pyspark console.
 * Apache Airflow to manage batch processing. AA uses DAGs. Clever that it can backfill so easily.
+
+---
+
 * p112 builds an index in ES for the flight information that is displayed in a page. It will provide a search box for the page, see p113: ‘Note that this might take some time, as there are several million records to index. You might want to leave this alone to run for a while.’
 * Note that the data is passed to ES in batches from Spark. Not sure why it is done from Spark (later: because the data is all stored via Spark).
 
