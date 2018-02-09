@@ -2,6 +2,13 @@
 
 ---
 
+Sample chapter
+====
+
+[https://www.safaribooksonline.com/library/view/agile-data-science/9781491960103/ch04.html](https://www.safaribooksonline.com/library/view/agile-data-science/9781491960103/ch04.html)
+
+---
+
 2 streams
 ====
 * How to apply Agile concepts to research problems.
