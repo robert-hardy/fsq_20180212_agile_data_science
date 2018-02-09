@@ -27,7 +27,7 @@ The repo is `fsq_20180212_agile_data_science`.
 
 Note to self: no Postgres.
 
----
++++
 
 The data-value pyramid
 ====
