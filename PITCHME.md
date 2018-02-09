@@ -33,16 +33,11 @@ Note to self: no Postgres.
 How to be Agile
 ===
 
-+++
+---
 
 The data-value pyramid
 ====
 ![data-value pyramid](data_value_pyramid.png)
-
----
-
-How to build a big-data app
-===
 
 ---
 
@@ -99,14 +94,18 @@ lifestyle.
 
 ---
 
-Big Data Web app
+How to build a big-data app
+===
+
+---
+
+Components
 ====
-The tech components are:
-1. Storage.
-2. Viewing.
-3. Searching.
-4. Predictions.
-5. Data pipeline.
+1. Storage: Spark, MongoDB, Parquet, JSON Lines.
+2. Viewing: Python Flask, HTML.
+3. Searching: ElasticSearch.
+4. Predictions: Spark MLlib.
+5. Data pipeline: AirFlow.
 
 ---
 
