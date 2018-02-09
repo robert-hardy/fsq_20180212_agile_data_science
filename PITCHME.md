@@ -7,6 +7,10 @@ Sample chapter
 
 [https://www.safaribooksonline.com/library/view/agile-data-science/9781491960103/ch04.html](https://www.safaribooksonline.com/library/view/agile-data-science/9781491960103/ch04.html)
 
+Or go via my GitHub account: [https://github.com/robert-hardy](https://github.com/robert-hardy).
+
+The repo is `fsq_20180212_agile_data_science`.
+
 ---
 
 2 streams
