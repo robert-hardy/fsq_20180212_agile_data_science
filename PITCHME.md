@@ -31,9 +31,8 @@ The data-value pyramid
 
 ---
 
-The ADS Manifesto.
+ADS Manifesto
 ====
-(Page 6)
 1. Iterate, iterate, iterate.
 2. Ship intermediate assets (avoid the death loop).
 3. ‘Prototype experiments’ rather than ‘implement tasks’.
@@ -41,6 +40,8 @@ The ADS Manifesto.
 5. The data-value pyramid.
 6. Find the critical path then focus on it.
 7. Get meta, document the analytics process.
+
+(See page 6.)
 
 ---
 
