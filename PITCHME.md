@@ -2,17 +2,18 @@
 
 ---
 
-2 topics
+2 streams
 ====
 * How to apply Agile concepts to research problems.
-    * Iterations.
-    * Deliver intermediate assets.
-    * Data-value pyramid.
-* An instruction manual for building a big data web application with ML predictions (and the data pipelines).
-    * Spark and SparkML.
-    * MongoDB.
-    * ElasticSearch.
-    * Python Flask.
+    * Iterate, deliver intermediate assets.
+    * The data-value pyramid.
+* How to build a big-data web application.
+    * Spark, SparkML, SparkStreaming
+    * Kafka
+    * MongoDB
+    * ElasticSearch
+    * Python Flask
+    * AirFlow
 
 ---
 
