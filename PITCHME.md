@@ -11,6 +11,12 @@ Genuine warning for maths types: Do not turn every little tech task into a resea
 
 ---
 
+The data-value pyramid
+====
+![data-value pyramid](data_value_pyramid.png)
+
+---
+
 The ADS Manifesto.
 ====
 (Page 6)
