@@ -27,11 +27,22 @@ The repo is `fsq_20180212_agile_data_science`.
 
 Note to self: no Postgres.
 
+
+---
+
+How to be Agile
+===
+
 +++
 
 The data-value pyramid
 ====
 ![data-value pyramid](data_value_pyramid.png)
+
+---
+
+How to build a big-data app
+===
 
 ---
 
