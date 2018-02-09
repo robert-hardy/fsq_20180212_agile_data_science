@@ -61,6 +61,7 @@ TL;DR
 2. The data-value pyramid will help you establish a solid base.
 
 Intermediate assets are valuable: they were necessary steps in your journey to the destination.
+
 (And they might be all you have to show for much longer than you think.)
 
 ---
