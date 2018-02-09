@@ -21,6 +21,8 @@ Sample chapter
     * Python Flask
     * AirFlow
 
+Note to self: no Postgres.
+
 ---
 
 The data-value pyramid
