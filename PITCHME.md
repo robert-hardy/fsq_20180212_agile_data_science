@@ -57,13 +57,11 @@ ADS Manifesto
 
 TL;DR
 ====
-1. Formalise and present your intermediate work:
-    * to get feedback early on,
-    * to remind people you are on the case,
-    * because it might be all you have to show for much longer than you think.
-3. The data-value pyramid will help you establish and improve your APIs/components sooner rather than later.
+1. Present your intermediate work often, for feedback.
+2. The data-value pyramid will help you establish a solid base.
 
-**Warning for maths types:** do not turn every little tech task into a research project.
+Intermediate assets are valuable: they were necessary steps in your journey to the destination.
+(And they might be all you have to show for much longer than you think.)
 
 ---
 
