@@ -60,10 +60,11 @@ TL;DR
 For example
 ====
 
-* People work in Jupyter notebooks in a central repository.
+* People work in Jupyter notebooks that are stored in a central repository.
 * Jenkins converts them to scripts and checks that they run without errors.
-* When they break we make a decision: is it valuable? is there a refactoring we need?
-* When we feel that something good has been identified we write a script that produces a report.
+* When they break we make a decision.
+* When we find something good we produce an automated report.
+* When a report is liked we promote it to a page to our web app.
 * We are climbing up the pyramid!
 
 ---
