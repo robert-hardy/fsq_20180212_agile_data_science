@@ -67,6 +67,7 @@ The tech components are:
 4. Predictions.
 5. Data pipeline.
 
+---
 
 Main tech
 ====
