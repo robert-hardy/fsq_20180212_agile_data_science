@@ -68,10 +68,18 @@ For example
 
 ---
 
-Full Stack Quants is my Agile project!
+For example
 ====
+
+* Full Stack Quants is Agile!
 * Why wait until my presentation is perfect?
-* For example, I haven’t read the AirFlow and Spark Straming
+* For example, I haven’t thoroughly read the AirFlow and Spark Streaming sections yet, but there is still plenty to talk about.
+* Intermediate assets:
+    * Live coding, TDD, Git.
+    * Trello for presentations.
+    * GitPitch.
+    * I am finding tools that make it easier to build content and which fit my
+lifestyle.
 
 ---
 
