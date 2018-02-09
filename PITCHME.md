@@ -1,5 +1,3 @@
-Agile Data Science 2.0
-====
 ![ADS 2.0 cover](http://prodimage.images-bn.com/pimages/9781491960110_p0_v2_s1200x630.jpg)
 
 ---
