@@ -25,13 +25,15 @@ The ADS Manifesto.
 
 TL;DR
 ====
-1. Formalise and present all your intermediate work: (i) to remind people you are on the case, (ii) to get feedback early on, (iii) because it is going to be all you have to show for much longer than you think.
-2. Take that seriously: script all your work where you can, keep your tests green.
+1. Formalise and present your intermediate work:
+    * to get feedback early on,
+    * to remind people you are on the case,
+    * because it is going to be all you have to show for much longer than you think.
 3. The data-value pyramid will help you establish and improve your APIs/components sooner rather than later.
 
 ---
 
-How about this idea
+For example
 ====
 
 * People work in Jupyter notebooks in a central repository.
