@@ -1,3 +1,60 @@
+ADS2 copied back from GitHub
+
+Bullets
+====
+There are 2 stories being told.
+* Applying ‘Agile’ concepts to research problems.
+* A recipe for building a big data web application with ML predictions (and the data pipelines).
+
+Genuine warning for maths types: Do not turn every little tech task into a research project.
+—-
+
+Being Agile: the ADS Manifesto.
+====
+Page 6:
+1. Iterate, iterate, iterate.
+2. Ship intermediate assets (avoid the death loop).
+3. ‘Prototype experiments’ rather than ‘implement tasks’.
+4. Listen to the data (customers, developers, business _and_ data).
+5. The data-value pyramid.
+6. Find the critical path then focus on it.
+7. Get meta, document the analytics process.
+
+—-
+
+A summary of sorts.
+====
+1. Formalise and present all your intermediate work: (i) to remind people you are on the case, (ii) to get feedback early on, (iii) because it is going to be all you have to show for much longer than you think.
+2. Take that seriously: script all your work where you can, keep your tests green.
+3. The data-value pyramid will help you establish and improve your APIs/components sooner rather than later.
+
+—-
+How about this idea
+====
+
+* People work in Jupyter notebooks in a central repository.
+* Jenkins converts them to scripts and checks that they run without errors.
+* When they break we make a decision: is it valuable? is there a refactoring we need?
+* When we feel that something good has been identified we write a script that produces a report.
+* We are climbing up the pyramid!
+
+—-
+Full Stack Quants is my Agile project!
+====
+* Why wait until my presentation is perfect?
+* For example, I haven’t read the AirFlow and Spark Straming
+
+
+Big Data Web app
+====
+The tech components are:
+1. Storage.
+2. Viewing.
+3. Searching.
+4. Predictions.
+5. Data pipeline.
+
+
 Main tech
 ====
 * Zookeeper to ‘orchestrate’ Kafka, p55. We start a daemon for zookeeper from within the Kafka directory and then start kafka with reference to a zookeeper config file. I checked on SO and find that Kafka _cannot_ be run without zookeeper.
@@ -34,7 +91,6 @@ Data is stored in 5 places:
 
 ---
 
-
 Storage formats
 ====
 * JSON lines is just JSON by line, typically a dict per line. Like CSV really.
@@ -51,7 +107,7 @@ The web app
 Agile checkpoints
 ====
 * p102 proposes we release the app without search, even though ‘To get real utility from this data, we need list and search capabilities.’
-* Why? Because we need User validation: ‘“Does anyone care about flights?” and “What do they want to know about a given flight?” We think we have answers to these questions: “Yes” and “Airline, origin, destination, tail number, date, air time, and distance flown.” But without validation, we don’t really know anything for certain.’
+* Why? Because we need User validation: ‘“Does anyone care about flights?” and “What do they want to know about a given flight?” We think we have answers to these questions: “Yes” and “Airline, origin, destination, tail number, date, air time, and distant ce flown.” But without validation, we don’t really know anything for certain.’
 
 ---
 
