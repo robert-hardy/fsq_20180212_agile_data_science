@@ -7,7 +7,8 @@ There are 2 stories being told.
 * A recipe for building a big data web application with ML predictions (and the data pipelines).
 
 Genuine warning for maths types: Do not turn every little tech task into a research project.
-—-
+
+---
 
 Being Agile: the ADS Manifesto.
 ====
@@ -20,7 +21,7 @@ Page 6:
 6. Find the critical path then focus on it.
 7. Get meta, document the analytics process.
 
-—-
+---
 
 A summary of sorts.
 ====
@@ -28,7 +29,8 @@ A summary of sorts.
 2. Take that seriously: script all your work where you can, keep your tests green.
 3. The data-value pyramid will help you establish and improve your APIs/components sooner rather than later.
 
-—-
+---
+
 How about this idea
 ====
 
@@ -38,7 +40,8 @@ How about this idea
 * When we feel that something good has been identified we write a script that produces a report.
 * We are climbing up the pyramid!
 
-—-
+---
+
 Full Stack Quants is my Agile project!
 ====
 * Why wait until my presentation is perfect?
