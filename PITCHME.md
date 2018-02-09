@@ -74,7 +74,7 @@ For example
 * Jenkins converts them to scripts and checks that they run without errors.
 * When they break we make a decision.
 * When we find something good we produce an automated report.
-* When a report is liked we promote it to a page to our web app.
+* When a report is liked we create a new page in our web app.
 * We are climbing up the pyramid!
 
 ---
