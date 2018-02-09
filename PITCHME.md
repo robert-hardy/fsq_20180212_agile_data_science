@@ -1,10 +1,13 @@
-ADS2 copied back from GitHub
-
-Bullets
+Agile Data Science 2.0
 ====
-There are 2 stories being told.
-* Applying ‘Agile’ concepts to research problems.
-* A recipe for building a big data web application with ML predictions (and the data pipelines).
+![ADS 2.0 cover](http://prodimage.images-bn.com/pimages/9781491960110_p0_v2_s1200x630.jpg)
+
+---
+
+2 topics
+====
+* How to apply ‘Agile’ concepts to research problems.
+* An instruction manual for building a big data web application with ML predictions (and the data pipelines).
 
 Genuine warning for maths types: Do not turn every little tech task into a research project.
 
