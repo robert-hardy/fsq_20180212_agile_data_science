@@ -10,9 +10,9 @@ Genuine warning for maths types: Do not turn every little tech task into a resea
 
 ---
 
-Being Agile: the ADS Manifesto.
+The ADS Manifesto.
 ====
-Page 6:
+(Page 6)
 1. Iterate, iterate, iterate.
 2. Ship intermediate assets (avoid the death loop).
 3. ‘Prototype experiments’ rather than ‘implement tasks’.
@@ -23,7 +23,7 @@ Page 6:
 
 ---
 
-A summary of sorts.
+TL;DR
 ====
 1. Formalise and present all your intermediate work: (i) to remind people you are on the case, (ii) to get feedback early on, (iii) because it is going to be all you have to show for much longer than you think.
 2. Take that seriously: script all your work where you can, keep your tests green.
@@ -47,6 +47,7 @@ Full Stack Quants is my Agile project!
 * Why wait until my presentation is perfect?
 * For example, I haven’t read the AirFlow and Spark Straming
 
+---
 
 Big Data Web app
 ====
