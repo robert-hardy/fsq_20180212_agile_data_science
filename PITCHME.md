@@ -15,7 +15,8 @@ Sample chapter
     * Iterate, deliver intermediate assets.
     * The data-value pyramid.
 * How to build a big-data web application.
-    * Apache: Spark, Spark MLlib, Spark Streaming, Kafka
+    * Apache: Spark, Spark MLlib, Spark Streaming
+    * Apache Kafka
     * Doc stores: MongoDB, ElasticSearch
     * Python Flask
     * AirFlow
