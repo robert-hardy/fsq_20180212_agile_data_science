@@ -39,6 +39,10 @@ First book I have come across which gives all the details of how to build a full
 
 Note to self: no Pandas, no Postgres.
 
+---
+Architecture 1
+====
+![Fig 2.3](overall_architecture.png)
 
 ---
 
