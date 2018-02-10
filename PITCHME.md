@@ -40,9 +40,19 @@ First book I have come across which gives all the details of how to build a full
 Note to self: no Pandas, no Postgres.
 
 ---
-Architecture 1
+Architecture overview
 ====
+
+See pages 31 & 32.
+
 ![Fig 2.3](overall_architecture.png)
+
+---
+
+Front end architecture
+====
+
+![front end architecture](https://github.com/rjurney/Agile_Data_Code_2/blob/master/images/front_end_realtime_architecture.png)
 
 ---
 
