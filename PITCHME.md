@@ -7,9 +7,11 @@ Sample chapter
 
 [https://www.safaribooksonline.com/library/view/agile-data-science/9781491960103/ch04.html](https://www.safaribooksonline.com/library/view/agile-data-science/9781491960103/ch04.html)
 
-Or go via my GitHub account: [https://github.com/robert-hardy](https://github.com/robert-hardy).
+Russell maintains all source code and a full AWS/Vagrant ready-to-go machine on
+GitHub.
 
-The repo is `fsq_20180212_agile_data_science`.
+[https://github.com/rjurney/Agile_Data_Code_2](https://github.com/rjurney/Agile_Data_Code_2)
+
 
 ---
 
