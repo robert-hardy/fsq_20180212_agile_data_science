@@ -38,7 +38,7 @@ First book I have come across which gives all the details of a big-data architec
 Note to self: no Pandas, no Postgres.
 
 ---
-Architecture overview
+Architecture
 ====
 
 ![Fig 2.3](overall_architecture.png)
