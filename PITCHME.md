@@ -116,7 +116,7 @@ How to build a big-data app
 Components
 ====
 1. Storage: Spark, MongoDB, Parquet, JSON Lines.
-2. Data work: Python scripts with `spark.sql` and `spark.map`.
+2. Data work: Python scripts with `spark.sql` and `spark.map`, etc.
 3. Viewing: Python Flask, HTML.
 4. Searching: ElasticSearch.
 5. Predictions: Spark MLlib.
