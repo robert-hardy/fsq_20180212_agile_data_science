@@ -19,7 +19,7 @@ This is my go-to textbook for big data tech.
 
 First book I have come across which gives all the details of how to build a fully scalable data application.
 
-There is a lot in there, so something like a ‘Pandas back story’ version would help the beginner.
+There is a lot in there, so a 'tech stack overview' chapter would be helpful.
 
 ---
 
