@@ -45,14 +45,14 @@ Architecture
 
 ---
 
-Front end architecture
+Front end
 ====
 
 ![front end architecture](front_end_realtime_architecture.png)
 
 ---
 
-Back end realtime architecture
+Back end
 ====
 
 ![back end realtime architecture](back_end_realtime_architecture.png)
