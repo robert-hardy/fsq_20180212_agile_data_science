@@ -76,12 +76,6 @@ Intermediate assets are valuable: they were necessary steps in your journey to t
 
 ---
 
-**Question**: What is the minimum increment?
-
-**Answer**: That depends on your audience and your confidence/experience.
-
----
-
 For example
 ====
 
