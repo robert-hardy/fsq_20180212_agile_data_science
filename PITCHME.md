@@ -45,9 +45,6 @@ Architecture
 
 ---
 
-Front end
-----
-
 ![front end architecture](front_end_realtime_architecture.png)
 
 ---
