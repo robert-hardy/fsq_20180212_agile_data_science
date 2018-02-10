@@ -27,15 +27,15 @@ First book I have come across which gives all the details of how to build a full
 
 2 streams
 ====
-* How to apply Agile concepts to research problems.
-    * Iterate, deliver intermediate assets.
-    * The data-value pyramid.
 * How to build a big-data web application.
     * Apache Spark, Spark MLlib, Spark Streaming
     * Apache Kafka
     * Doc stores: MongoDB, ElasticSearch
     * Python Flask
     * AirFlow
+* How to apply Agile concepts to research problems.
+    * Iterate, deliver intermediate assets.
+    * The data-value pyramid.
 
 Note to self: no Pandas, no Postgres.
 
