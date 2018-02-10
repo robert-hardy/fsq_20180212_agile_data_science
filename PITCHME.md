@@ -13,6 +13,16 @@ The repo is `fsq_20180212_agile_data_science`.
 
 ---
 
+Verdict
+====
+This is my go-to textbook for big data tech.
+
+First book I have come across which gives all the details of how to build a fully scalable data application.
+
+There is a lot in there, so something like a ‘Pandas back story’ version would help the beginner.
+
+—-
+
 2 streams
 ====
 * How to apply Agile concepts to research problems.
@@ -25,7 +35,7 @@ The repo is `fsq_20180212_agile_data_science`.
     * Python Flask
     * AirFlow
 
-Note to self: no Postgres.
+Note to self: no Pandas, no Postgres.
 
 
 ---
@@ -64,6 +74,10 @@ Intermediate assets are valuable: they were necessary steps in your journey to t
 
 (And they might be all you have to show for much longer than you think.)
 
+Question: what is the minimum increment?
+
+Answer: depends on your audience and your confidence (and therefore your experience).
+
 ---
 
 For example
@@ -72,6 +86,7 @@ For example
 * People work in Jupyter notebooks that are stored in a central repository.
 * Jenkins converts them to scripts and checks that they run without errors.
 * When they break we make a decision.
+* We refactor code and build libraries.
 * When we find something good we produce an automated report.
 * When a report is liked we create a new page in our web app.
 * We are climbing up the pyramid!
@@ -101,12 +116,42 @@ How to build a big-data app
 Components
 ====
 1. Storage: Spark, MongoDB, Parquet, JSON Lines.
+2. Data work: Python scripts with `spark.sql` and `spark.map`.
 2. Viewing: Python Flask, HTML.
 3. Searching: ElasticSearch.
 4. Predictions: Spark MLlib.
 5. Data pipeline: AirFlow.
 
 ---
+
+What/where data?
+====
+Data is stored in 5 places:
+1. Wget into files, p91. (273 MB or 315 MB?)
+2. Load into Spark, p92.
+3. SQL from Spark to JSON and Parquet files, p93. (259 MB, 248 MB). I guess that these files are distributed across the cluster.
+4. From Spark to MongoDB, p95.
+5. From Spark to ElsaticSearch, p113.
+
+---
+
+Spark query to MongoDB
+====
+Investigating seasonality in flights.
+
+Spark SQL query saved to MongoDB then displayed as a table in a web page.
+
+```
+on_time_dataframe = spark.read.parquet('data/on_time_performance.parquet')
+    on_time_dataframe.registerTempTable("on_time_dataframe")
+    total_flights_by_month = spark.sql(
+"""SELECT Month, Year, COUNT(*) AS total_flights FROM on_time_dataframe
+GROUP BY Year, Month
+ORDER BY Year, Month"""
+)
+```
+
+—-
 
 Main tech
 ====
