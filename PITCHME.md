@@ -117,10 +117,10 @@ Components
 ====
 1. Storage: Spark, MongoDB, Parquet, JSON Lines.
 2. Data work: Python scripts with `spark.sql` and `spark.map`.
-2. Viewing: Python Flask, HTML.
-3. Searching: ElasticSearch.
-4. Predictions: Spark MLlib.
-5. Data pipeline: AirFlow.
+3. Viewing: Python Flask, HTML.
+4. Searching: ElasticSearch.
+5. Predictions: Spark MLlib.
+6. Data pipeline: AirFlow.
 
 ---
 
