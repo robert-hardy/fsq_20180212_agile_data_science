@@ -19,9 +19,7 @@ Verdict
 ====
 This is my go-to textbook for big data tech.
 
-First book I have come across which gives all the details of how to build a fully scalable data application.
-
-(There is a better architecture picture in the GitHub repo.)
+First book I have come across which gives all the details of a big-data architecture (and all the code!).
 
 ---
 
