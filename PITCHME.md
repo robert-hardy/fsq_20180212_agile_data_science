@@ -21,7 +21,7 @@ This is my go-to textbook for big data tech.
 
 First book I have come across which gives all the details of how to build a fully scalable data application.
 
-There is a lot in there, so a 'tech stack overview' chapter would be helpful.
+(There is a better architecture picture in the GitHub repo.)
 
 ---
 
