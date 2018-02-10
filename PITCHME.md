@@ -43,8 +43,6 @@ Note to self: no Pandas, no Postgres.
 Architecture overview
 ====
 
-See pages 31 & 32.
-
 ![Fig 2.3](overall_architecture.png)
 
 ---
@@ -52,7 +50,14 @@ See pages 31 & 32.
 Front end architecture
 ====
 
-![front end architecture](https://github.com/rjurney/Agile_Data_Code_2/blob/master/images/front_end_realtime_architecture.png)
+![front end architecture](front_end_realtime_architecture.png)
+
+---
+
+Back end realtime architecture
+====
+
+![back end realtime architecture](back_end_realtime_architecture.png)
 
 ---
 
