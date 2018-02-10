@@ -41,7 +41,7 @@ Note to self: no Pandas, no Postgres.
 Architecture
 ====
 
-![Fig 2.3](overall_architecture.png)
+![Fig 2.3](overall_architecture_with_boxes.png)
 
 ---
 
