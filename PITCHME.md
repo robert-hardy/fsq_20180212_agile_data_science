@@ -45,11 +45,9 @@ Spin it up!
 
 ![aws sec_credentials](aws_security_credentials.png)
 
-        brew install jq
-        aws configure
-        ./ec2.sh
-
-        ssh -i ./agile_data_science.pem ubuntu@ec2-13-59-142-77.us-east-2.compute.amazonaws.com
+    brew install jq
+    aws configure
+    ./ec2.sh
 
 ---
 Architecture
@@ -72,6 +70,18 @@ Back end
 ![back end realtime architecture](back_end_realtime_architecture.png)
 
 ---
+
+Download data
+====
+Log file gives details:
+
+    ssh -i ./agile_data_science.pem ubuntu@<external-ip>.us-east-2.compute.amazonaws.com
+
+    cat agile_data_science.message
+    cd Agile_Data_Code_2
+    ./download.sh
+    ls -l data
+
 
 How to be Agile
 ===
