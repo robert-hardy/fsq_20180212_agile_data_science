@@ -46,7 +46,7 @@ Spin it up!
 ![aws sec_credentials](aws_security_credentials.png)
 
     brew install jq
-    aws configure
+    aws configure      (us-east-2)
     ./ec2.sh
 
 ---
@@ -71,17 +71,18 @@ Back end
 
 ---
 
-Download data
+Start up Jupyter notebook
 ====
 Log file gives details:
 
-    ssh -i ./agile_data_science.pem ubuntu@<external-ip>.us-east-2.compute.amazonaws.com
+    ./ec2_create_tunnel.sh
+    ssh -i ./agile_data_science.pem ubuntu@ec2-<public-ip>.us-east-2.compute.amazonaws.com
 
     cat agile_data_science.message
     cd Agile_Data_Code_2
-    ./download.sh
-    ls -l data
+    jupyter notebook
 
+---
 
 How to be Agile
 ===
