@@ -45,12 +45,9 @@ Spin it up!
 
 ![aws sec_credentials](aws_security_credentials.png)
 
-1.
-
         brew install jq
         aws configure
         ./ec2.sh
-2. Log gives instructions like:
 
         ssh -i ./agile_data_science.pem ubuntu@ec2-13-59-142-77.us-east-2.compute.amazonaws.com
 
