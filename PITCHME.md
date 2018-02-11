@@ -43,13 +43,14 @@ Note to self: no Pandas, no Postgres.
 Spin it up!
 ====
 
-1. Get security credentials: ![aws sec_credentials](aws_security_credentials.png)
-2.
+![aws sec_credentials](aws_security_credentials.png)
+
+1.
 
         brew install jq
         aws configure
         ./ec2.sh
-3.
+2. Log gives instructions like:
 
         ssh -i ./agile_data_science.pem ubuntu@ec2-13-59-142-77.us-east-2.compute.amazonaws.com
 
