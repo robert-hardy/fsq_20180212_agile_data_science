@@ -19,7 +19,10 @@ Verdict
 ====
 This is my go-to textbook for big data tech.
 
-First book I have come across which gives all the details of a big-data architecture (and all the code!).
+First book I have come across which gives
+- all the details of a big-data architecture
+- all the code
+- all wrapped up in an AWS instance.
 
 ---
 
