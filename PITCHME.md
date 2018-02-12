@@ -22,6 +22,8 @@ This is the only book I have come across which gives
 
 **There is a huge amount of value in all the work Russell has done.**
 
+_and ..._
+
 This is my reference on how to do ‘Agile research’.
 
 ---
