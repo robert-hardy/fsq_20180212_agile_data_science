@@ -13,9 +13,7 @@ In the author’s words
 
 Much more
 ====
-This is my go-to textbook for big data architecture.
-
-This is the only book I have come across which gives
+This book worth its weight in gold:
 - all the details of a big-data architecture
 - all the code (& scripts)
 - all wrapped up in an EC2 instance.
