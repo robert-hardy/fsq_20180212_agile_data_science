@@ -174,7 +174,18 @@ For example
 
 ---
 
-How to build a big-data app
+Agile checkpoints
+====
+* p102 proposes we release the app without search, even though ‘To get real utility from this data, we need list and search capabilities.’
+* Why? Because we need User validation: ‘“Does anyone care about flights?” and “What do they want to know about a given flight?” We think we have answers to these questions: “Yes” and “Airline, origin, destination, tail number, date, air time, and distant ce flown.” But without validation, we don’t really know anything for certain.’
+
+---
+
+* ‘The other reason to ship something now is that the act of publishing, presenting, and sharing your work will highlight a number of problems in your platform setup that would likely otherwise go undiscovered until the moment you launch your product.’
+
+---
+
+Extras
 ===
 
 ---
@@ -195,9 +206,9 @@ What/where data?
 Data is stored in 5 places:
 1. Wget into files, p91.
 2. Load into Spark, p92.
-3. SQL from Spark to JSON and Parquet files, p93. (259 MB, 248 MB). I guess that these files would be distributed across the cluster.
+3. SQL from Spark to JSON and Parquet files, p93.
 4. From Spark to MongoDB, p95.
-5. From Spark to ElsaticSearch, p113.
+5. From Spark to ElasticSearch, p113.
 
 ---
 
@@ -219,12 +230,14 @@ ORDER BY Year, Month"""
 
 —-
 
-Main tech
+Tech notes
 ====
 * Zookeeper to ‘orchestrate’ Kafka, p55. We start a daemon for zookeeper from within the Kafka directory and then start kafka with reference to a zookeeper config file. I checked on SO and find that Kafka _cannot_ be run without zookeeper.
-* ElasticSearch to ‘find records’, p50 ‘using ElasticSearch to search our data, to make it easy to find the records we’ll be working so hard to create.’ Does this mean that all the data is available to search, or just the aggregated results? I think it is all indexed; it is searched from the web page. Great idea really, it means you can quite easily browse the data.
+* ElasticSearch to ‘find records’, p50 ‘using ElasticSearch to search our data, to make it easy to find the records we’ll be working so hard to create.’
 
 ---
+Tech notes
+====
 
 * ‘Kafka messages are grouped into topics’, p55 ‘we will be using Kafka to deploy predictions using Spark Streaming, but it can do much more.’ On p55 he runs the ‘console producer’ where we can publish messages to a topic (you write some Json) and then the ‘console consumer’ plays it back.
 * Spark streaming has a ‘period’ of 10 seconds and ‘creates a Kafka stream’, p57. It listens to Kafka messages and acts on them — Russell prints the message in a Kafka object to the pyspark console.
@@ -234,17 +247,6 @@ Main tech
 
 * p112 builds an index in ES for the flight information that is displayed in a page. It will provide a search box for the page, see p113: ‘Note that this might take some time, as there are several million records to index. You might want to leave this alone to run for a while.’
 * Note that the data is passed to ES in batches from Spark (because the data is all stored in RDDs with Spark).
-
----
-
-The storage bit
-====
-Data is stored in 5 places:
-1. Wget into files, p91. (273 MB or 315 MB?)
-2. Load into Spark, p92.
-3. SQL from Spark to JSON and Parquet files, p93. (259 MB, 248 MB). I guess that these files are distributed across the cluster.
-4. From Spark to MongoDB, p95.
-5. From Spark to ElsaticSearch, p113.
 
 ---
 
@@ -265,17 +267,6 @@ The web app
 ====
 * The first few pages show (paginated) all the flights between 2 airports on a given date, p109. This data comes from MongoDB.
 * The next iteration is to allow a search with ES, p117.
-
----
-
-Agile checkpoints
-====
-* p102 proposes we release the app without search, even though ‘To get real utility from this data, we need list and search capabilities.’
-* Why? Because we need User validation: ‘“Does anyone care about flights?” and “What do they want to know about a given flight?” We think we have answers to these questions: “Yes” and “Airline, origin, destination, tail number, date, air time, and distant ce flown.” But without validation, we don’t really know anything for certain.’
-
----
-
-* ‘The other reason to ship something now is that the act of publishing, presenting, and sharing your work will highlight a number of problems in your platform setup that would likely otherwise go undiscovered until the moment you launch your product.’
 
 ---
 
