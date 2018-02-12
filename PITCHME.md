@@ -31,7 +31,7 @@ This is the only book I have come across which gives
 - all the code (& scripts)
 - all wrapped up in an EC2 instance.
 
-This is my reference point for how to do ‘Agile research’.
+This is my reference on how to do ‘Agile research’.
 
 ---
 
