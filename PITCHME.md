@@ -12,7 +12,7 @@ GitHub.
 
 [https://github.com/rjurney/Agile_Data_Code_2](https://github.com/rjurney/Agile_Data_Code_2)
 
-—-
+---
 
 In the author’s words
 ====
@@ -39,7 +39,7 @@ Spin it up!
 ![aws sec_credentials](aws_security_credentials.png)
 
     brew install jq
-    git clone —-
+    git clone https://github.com/rjurney/Agile_Data_Code_2.git
     pip install awscli
 
     aws configure      (us-east-2)
