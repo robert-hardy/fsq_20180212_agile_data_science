@@ -247,30 +247,3 @@ Tech notes
 
 * p112 builds an index in ES for the flight information that is displayed in a page. It will provide a search box for the page, see p113: ‘Note that this might take some time, as there are several million records to index. You might want to leave this alone to run for a while.’
 * Note that the data is passed to ES in batches from Spark (because the data is all stored in RDDs with Spark).
-
----
-
-* the flight data is wget on p91. It is load to spark on p92. It is then saved to the data dir in Parquet format on p93.
-* The storage happens on p94: ‘Note that the Parquet file is only 248 MB, compared with 315 MB for the original gzip-compressed CSV and 259 MB for the gzip-compressed JSON. In practice the Parquet will be much more performant, as it will only load the individual columns we actually use in our PySpark scripts.’
-* On p95 the whole rdd is loaded into MongoDB. That means that there are multiple copies of the data.
-* On p113 the whole RDD is loaded to ElasticSearch in batches of 100. ‘Note that this might take some time, as there are several million records to index’.
-
----
-
-Storage formats
-====
-* JSON lines is just JSON by line, typically a dict per line. Like CSV really.
-
----
-
-The web app
-====
-* The first few pages show (paginated) all the flights between 2 airports on a given date, p109. This data comes from MongoDB.
-* The next iteration is to allow a search with ES, p117.
-
----
-
-Batch processing with AirFlow
-====
-* on p242 there is a web endpoint set up for generating prediction requests. These will be processed as if they are a daily request, and might result in a daily email in your inbox.
-
