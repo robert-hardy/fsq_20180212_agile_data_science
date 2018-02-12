@@ -2,17 +2,6 @@
 
 ---
 
-Sample chapter
-====
-
-[https://www.safaribooksonline.com/library/view/agile-data-science/9781491960103/ch04.html](https://www.safaribooksonline.com/library/view/agile-data-science/9781491960103/ch04.html)
-
-Russell maintains all source code and a full EC2/Vagrant ready-to-go machine on
-GitHub.
-
-[https://github.com/rjurney/Agile_Data_Code_2](https://github.com/rjurney/Agile_Data_Code_2)
-
----
 
 In the author’s words
 ====
@@ -32,6 +21,17 @@ This is the only book I have come across which gives
 - all wrapped up in an EC2 instance.
 
 This is my reference on how to do ‘Agile research’.
+
+---
+Sample chapter
+====
+
+[https://www.safaribooksonline.com/library/view/agile-data-science/9781491960103/ch04.html](https://www.safaribooksonline.com/library/view/agile-data-science/9781491960103/ch04.html)
+
+Russell maintains all source code and a full EC2/Vagrant ready-to-go machine on
+GitHub.
+
+[https://github.com/rjurney/Agile_Data_Code_2](https://github.com/rjurney/Agile_Data_Code_2)
 
 ---
 
