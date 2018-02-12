@@ -161,7 +161,8 @@ For example
     * Live coding, TDD, Git.
     * Trello for presentations.
     * GitPitch.
-    * I am finding tools that make it easier to build content and which fit my
+    * I am finding tools that make it easier to build content.
+    * I am getting more efficient (less waste).
 lifestyle.
 
 ---
