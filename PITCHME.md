@@ -163,7 +163,6 @@ For example
     * GitPitch.
     * I am finding tools that make it easier to build content.
     * I am getting more efficient (less waste).
-lifestyle.
 
 ---
 
