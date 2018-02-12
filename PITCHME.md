@@ -7,22 +7,45 @@ Sample chapter
 
 [https://www.safaribooksonline.com/library/view/agile-data-science/9781491960103/ch04.html](https://www.safaribooksonline.com/library/view/agile-data-science/9781491960103/ch04.html)
 
-Russell maintains all source code and a full AWS/Vagrant ready-to-go machine on
+Russell maintains all source code and a full EC2/Vagrant ready-to-go machine on
 GitHub.
 
 [https://github.com/rjurney/Agile_Data_Code_2](https://github.com/rjurney/Agile_Data_Code_2)
 
+—-
+
+In the author’s words
+====
+ > Most research sits on a shelf and never gets into the hands of people it can benefit. This book is a prescription and methodology for doing applied research that makes it into the world in the form of a product.
 
 ---
 
-Verdict
+Much more
 ====
-This is my go-to textbook for big data tech.
+This is my go-to textbook for big data architecture.
 
-First book I have come across which gives
+This is the only book I have come across which gives
 - all the details of a big-data architecture
-- all the code
-- all wrapped up in an AWS instance.
+- all the code (& scripts)
+- all wrapped up in an EC2 instance.
+
+This is my reference point for how to do ‘Agile research’.
+
+---
+
+Spin it up!
+====
+
+![aws sec_credentials](aws_security_credentials.png)
+
+    brew install jq
+    git clone —-
+    pip install awscli
+
+    aws configure      (us-east-2)
+    ./ec2.sh
+
+Back in 5 mins …
 
 ---
 
@@ -40,17 +63,6 @@ First book I have come across which gives
     * The data-value pyramid.
 
 Note to self: no Pandas, no Postgres.
-
----
-
-Spin it up!
-====
-
-![aws sec_credentials](aws_security_credentials.png)
-
-    brew install jq
-    aws configure      (us-east-2)
-    ./ec2.sh
 
 ---
 Architecture
@@ -74,16 +86,21 @@ Back end
 
 ---
 
-Start up Jupyter notebook
+Jupyter notebooks
 ====
-Log file gives details:
 
     ./ec2_create_tunnel.sh
-    ssh -i ./agile_data_science.pem ubuntu@ec2-<public-ip>.us-east-2.compute.amazonaws.com
+    ssh -i ./agile_data_science.pem ubuntu@<public-dns>
 
     cat agile_data_science.message
     cd Agile_Data_Code_2
     jupyter notebook
+
+Now visit [http://localhost:8888](http://localhost:8888)
+
+---
+Spark intro
+====
 
 ---
 
@@ -161,8 +178,8 @@ Components
 1. Storage: Spark, MongoDB, Parquet, JSON Lines.
 2. Data work: Python scripts with `spark.sql` and `spark.map`, etc.
 3. Viewing: Python Flask, HTML.
-4. Searching: ElasticSearch.
-5. Predictions: Spark MLlib.
+4. Searching big data: ElasticSearch.
+5. Predictions: Scikit-learn, Spark MLlib.
 6. Data pipeline: AirFlow.
 
 ---
@@ -170,9 +187,9 @@ Components
 What/where data?
 ====
 Data is stored in 5 places:
-1. Wget into files, p91. (273 MB or 315 MB?)
+1. Wget into files, p91.
 2. Load into Spark, p92.
-3. SQL from Spark to JSON and Parquet files, p93. (259 MB, 248 MB). I guess that these files are distributed across the cluster.
+3. SQL from Spark to JSON and Parquet files, p93. (259 MB, 248 MB). I guess that these files would be distributed across the cluster.
 4. From Spark to MongoDB, p95.
 5. From Spark to ElsaticSearch, p113.
 
@@ -210,7 +227,7 @@ Main tech
 ---
 
 * p112 builds an index in ES for the flight information that is displayed in a page. It will provide a search box for the page, see p113: ‘Note that this might take some time, as there are several million records to index. You might want to leave this alone to run for a while.’
-* Note that the data is passed to ES in batches from Spark. Not sure why it is done from Spark (later: because the data is all stored via Spark).
+* Note that the data is passed to ES in batches from Spark (because the data is all stored in RDDs with Spark).
 
 ---
 
@@ -259,3 +276,4 @@ Agile checkpoints
 Batch processing with AirFlow
 ====
 * on p242 there is a web endpoint set up for generating prediction requests. These will be processed as if they are a daily request, and might result in a daily email in your inbox.
+
