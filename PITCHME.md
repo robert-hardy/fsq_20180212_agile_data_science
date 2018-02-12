@@ -54,11 +54,9 @@ Back in 5 mins …
 2 streams
 ====
 * How to build a big-data web application.
-    * Apache Spark, Spark MLlib, Spark Streaming
-    * Apache Kafka
+    * Spark, Spark MLlib, Kafka, Spark Streaming
     * Doc stores: MongoDB, ElasticSearch
-    * Scikit-learn
-    * Python Flask
+    * Python Flask, Scikit-learn
     * AirFlow
 * How to apply Agile concepts to research problems.
     * Iterate, deliver intermediate assets.
