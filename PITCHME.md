@@ -20,6 +20,8 @@ This is the only book I have come across which gives
 - all the code (& scripts)
 - all wrapped up in an EC2 instance.
 
+**There is a huge amount of value in all the work Russell has done.**
+
 This is my reference on how to do ‘Agile research’.
 
 ---
