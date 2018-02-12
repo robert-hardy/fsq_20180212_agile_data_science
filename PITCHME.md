@@ -228,7 +228,7 @@ ORDER BY Year, Month"""
 )
 ```
 
-—-
+---
 
 Tech notes
 ====
