@@ -16,7 +16,8 @@ GitHub.
 
 In the author’s words
 ====
- > Most research sits on a shelf and never gets into the hands of people it can benefit. This book is a prescription and methodology for doing applied research that makes it into the world in the form of a product.
+> Most research sits on a shelf and never gets into the hands of people it can benefit.
+> This book is a prescription and methodology for doing applied research that makes it into the world in the form of a product.
 
 ---
 
