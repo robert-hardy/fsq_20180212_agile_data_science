@@ -67,6 +67,12 @@ Back in 5 mins …
 Note to self: no Pandas, no Postgres.
 
 ---
+
+How to build a big-data web application
+====
+
+---
+
 Architecture
 ====
 
