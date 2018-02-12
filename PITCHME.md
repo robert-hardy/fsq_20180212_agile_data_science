@@ -101,10 +101,6 @@ Jupyter notebooks
 Now visit [http://localhost:8888](http://localhost:8888)
 
 ---
-Spark intro
-====
-
----
 
 How to be Agile
 ===
